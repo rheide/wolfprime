@@ -12,6 +12,9 @@
 	
 		<div class="entry-meta">
 			<?php wolfprime_posted_on(); ?>
+			<span class="cat-links">
+				<?php printf( __( '<span class="%1$s"> in</span> %2$s', 'wolfprime' ), 'entry-utility-prep entry-utility-prep-cat-links', get_the_category_list( ', ' ) ); ?>
+			</span>
 		</div><!-- .entry-meta -->
 	
 		<div class="entry-content">
